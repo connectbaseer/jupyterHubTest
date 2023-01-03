@@ -1,3 +1,3 @@
 FROM jupyter/datascience-notebook:latest
 USER root
-COPY pandas /tmp/.
+RUN apt install -y git
