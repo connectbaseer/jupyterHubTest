@@ -1,4 +1,5 @@
 FROM jupyter/datascience-notebook:latest
-RUN pip install -r requirements.txt
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
 USER root
 RUN apt install -y git
