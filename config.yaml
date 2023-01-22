@@ -454,7 +454,7 @@ singleuser:
       storageAccessModes: [ReadWriteOnce]
   image:
     name: abdul8423/myjupyter
-    tag: "v1.0.6"
+    tag: "v1.0.7"
     pullPolicy:
     pullSecrets: []
   startTimeout: 300
